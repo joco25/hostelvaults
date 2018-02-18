@@ -1,0 +1,196 @@
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color:#7c8a95;
+    background-color: #ffffff;
+    margin:0px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+
+
+/* nav */
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-inverse .nav {
+    padding: 15px 0;
+}
+
+.navbar-inverse .navbar-brand {
+    padding: 0 15px;
+}
+
+img{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.red{
+    background-color: #ff6554;
+    box-shadow: 0 2px #cc3a2a;
+    color: #fff;
+}
+
+.red:hover{
+    background-color: #cc3a2a !important;
+
+}
+
+.orange{
+    background-color: #ffa430;
+    box-shadow: 0 2px #ff9003;
+    color: #fff;
+}
+
+.orange:hover{
+    background-color: #ff9003 !important;
+}
+
+
+nav {
+    background-image: url(../img/pattern.png); 
+    background-repeat: repeat-x;
+}
+
+.top-right {
+                position: absolute;
+                right: 50px;
+                top: 12px;
+            }
+
+.top-right a{
+                color: #fff !important;
+                padding: 0 25px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+}
+
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/*Special*/
+
+.grey{
+    color:#7c8a95;
+    background-color: #bdcbcf;
+    margin-top: 50px;
+}
+
+.sec{
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.grey h2{
+    color: #38454f;
+}
+
+.grey li{
+    list-style: none;
+}
+
+
+
+
+/* Footer Styles */
+
+footer {
+   background-color: #38454f;
+   padding: 20px;
+}
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+@media(min-width:768px) {
+  
+    .navbar-inverse .navbar-brand {
+        padding: 15px 0;
+    }
+
+    .navbar-nav > li > a {
+        padding: 5px 10px;
+        margin: 10px 0;
+    }
+}
